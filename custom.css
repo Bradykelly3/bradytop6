@@ -1,3 +1,21 @@
+[data-theme="movie"] {
+    --primary: #800016;
+    --color-orange: #a0001c;
+    --color-red: #c00021;
+    --color-black: #000000;
+    --color-lightblue: #002962;
+    --color-white: #ffffff;
+    --color-darkblue: #00043a;
+}
+
+body {
+    background-color: var(--color-black);
+}
+
+/********* Hero *********/
+/********* Hero *********/
+/********* Hero *********/
+
 .hero-mesh {
     background: url("https://wallpaperaccess.com/full/1561985.jpg");
     background-position: center;
