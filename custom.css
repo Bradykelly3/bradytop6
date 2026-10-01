@@ -12,6 +12,17 @@ body {
     background-color: var(--color-black);
 }
 
+.hero-title {
+    color: var(--color-white);
+    text-shadow: 10px 10px 10px var(--color-black);
+}
+
+.hero-support {
+  color: var(--color-white);
+  font-weight: 800;
+  text-shadow: 5px 5px 5px var(--color-black);
+}
+
 /********* Hero *********/
 /********* Hero *********/
 /********* Hero *********/
@@ -20,4 +31,13 @@ body {
     background: url("https://wallpaperaccess.com/full/1561985.jpg");
     background-position: center;
     background-size: cover;
+}
+
+/********* navbar *********/
+/********* navbar *********/
+/********* navbar *********/
+
+.site-nav-brand {
+    color: var(--color-black);
+    
 }
