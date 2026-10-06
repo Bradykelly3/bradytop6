@@ -38,6 +38,18 @@ body {
 /********* navbar *********/
 
 .site-nav-brand {
-    color: var(--color-black);
-    
+    color: var(--color-white);
 }
+.is-nav-ready .site-nav.is-stuck {
+    background: color-mix(in oklab, var(--color-base-100) 88%, transparent);
+    backdrop-filter: blur(10px);
+}
+
+
+top6 list
+1. the interview
+2. surfs up
+3. Shrek 2
+4. Tallega Nights
+5. This is the end
+6. Gladiator 
