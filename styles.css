@@ -336,12 +336,10 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 
 .shot img {
   width: 100%;
-  height: 100%; /* Increase this pixel value to make it taller */
-  object-fit: cover;
-  transition: transform 0.5s ease;
+  height: 100%;
+  object-fit: cover;     /* Crops the image edges to prevent distortion */
+  object-position: center;
 }
-
-
 .entry-card:hover .shot img {
   transform: scale(1.05);
 }

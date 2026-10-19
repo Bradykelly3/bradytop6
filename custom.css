@@ -7,6 +7,12 @@
     --color-white: #ffffff;
     --color-darkblue: #00043a;
 }
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Cherry Cream Soda", system-ui;
+}
+b1, b2, b3, b4, b5, b6 {
+   font-family: "Overlock", sans-serif;
+}
 
 body {
     background-color: var(--color-black);
