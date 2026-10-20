@@ -18,9 +18,9 @@
 /* Redeclare the theme's colors here to make them yours. Change `retro` to the
  * theme on <html>. Measure both: white on your primary, and your primary as
  * text on the page. Each needs 4.5:1. */
-[data-theme='retro'] {
-  /* --color-primary: #______; */
-  /* --color-primary-content: #______; */
+[data-theme='movie'] {
+  /* --color-primary: #800016; */
+  /* --color-primary-content: #c00021; */
 }
 
 /* ============================================================ TYPE
@@ -42,7 +42,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--color-base-content);
+  color: var(--color-red);
   margin-bottom: 0.5rem;
 }
 
@@ -52,10 +52,11 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   line-height: 1.1;
   letter-spacing: -0.02em;
   margin-bottom: 0.75rem;
+  color: var(--color-red);
 }
 
 .section-support {
-  color: var(--color-base-content);
+  color: var(--color-red);
   max-width: 46ch;
 }
 
@@ -141,7 +142,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 }
 
 .site-nav-links > a:not(.btn):hover {
-  color: var(--color-primary);
+  color: var(--color-red);
 }
 
 @media (min-width: 48rem) {
@@ -313,7 +314,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 .entry-card:hover,
 .entry-card:focus-within {
   transform: translateY(-6px);
-  box-shadow: 0 18px 40px -18px color-mix(in oklab, var(--color-base-content) 55%, transparent);
+  box-shadow: 0 18px 40px -18px color-mix(in oklab, var(--color-red) 55%, transparent);
   border-color: color-mix(in oklab, var(--color-primary) 55%, transparent);
 }
 
@@ -325,7 +326,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   margin: 0;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background: var(--color-base-300);
+  background: var(--color-black);
 }
 
 .shot {
@@ -353,7 +354,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   padding: 1.5rem 1rem 0.9rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--color-white);
   text-align: left;
   background: linear-gradient(to top, rgb(0 0 0 / 0.82), rgb(0 0 0 / 0.55) 60%, transparent);
   transform: translateY(101%);
@@ -386,7 +387,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
   line-height: 1;
   letter-spacing: -0.05em;
   font-variant-numeric: tabular-nums; /* 06 and 01 are the same width */
-  color: color-mix(in oklab, var(--color-base-content) 70%, transparent);
+  color: color-mix(in oklab, var(--color-red) 70%, transparent);
   pointer-events: none;
   transition: color 0.35s ease;
 }
@@ -440,14 +441,14 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 
 .entry-one .entry-card {
   position: relative;
-  background: var(--color-primary);
-  color: var(--color-primary-content);
+  background: var(--color-red);
+  color: var(--color-white);
   border-color: transparent;
 }
 
 .entry-one .eyebrow,
 .entry-one .entry-note {
-  color: var(--color-primary-content);
+  color: var(--color-white);
 }
 
 .entry-one .entry-title {
@@ -512,7 +513,7 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 /* ============================================================ THE FOOTER */
 
 .site-foot {
-  background: var(--color-base-300);
+  background: var(--color-white);
 }
 
 .site-foot-inner {
@@ -533,11 +534,13 @@ h1, h2, h3 { font-family: '______', system-ui, sans-serif; }
 .site-foot-title {
   font-weight: 700;
   margin-bottom: 0.4rem;
+  color: var(--color-red);
 }
 
 .credits {
   font-size: 0.875rem;
   line-height: 1.7;
+  color: var(--color-red);
 }
 
 .credits a {
